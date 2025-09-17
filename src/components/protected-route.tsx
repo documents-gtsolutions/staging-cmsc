@@ -26,7 +26,7 @@ export const ProtectedRoute = ({
         router.push(redirectTo);
       } 
       // If authenticated but not authorized for this role
-      else if (userRole && !allowedRoles.includes(userRole)) {
+      else if (userRole && !allowedRoles.includes(userRole as string | number)) {
         router.push("/unauthorized");
       }
     }
