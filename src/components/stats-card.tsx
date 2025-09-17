@@ -1,6 +1,4 @@
 import React from 'react'
-import { Card } from './ui/card'
-import { colorClass } from '../lib/colors'
 import { cn } from '../lib/utils'
 import { CircularProgress } from './ui/circular-progress'
 
