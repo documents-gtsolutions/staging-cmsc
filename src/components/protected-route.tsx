@@ -26,7 +26,7 @@ export const ProtectedRoute = ({
         router.push(redirectTo);
       } 
       // If authenticated but not authorized for this role
-      else if (userRole && !allowedRoles.includes(userRole as string | number)) {
+      else if (userRole && !allowedRoles.includes(userRole.toString())) {
         router.push("/unauthorized");
       }
     }
@@ -34,7 +34,7 @@ export const ProtectedRoute = ({
 
   // Show loading state while checking authentication
   console.log(loading,user,userRole,allowedRoles)
-  if (loading || !user || (userRole && !allowedRoles.includes(userRole))) {
+  if (loading || !user || (userRole && !allowedRoles.includes(userRole.toString()))) {
     return <LoadingSpinner />;
   }
 
