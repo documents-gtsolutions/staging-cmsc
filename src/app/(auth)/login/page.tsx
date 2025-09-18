@@ -79,7 +79,7 @@ export default function LoginPage() {
   return (
     <div className="w-full max-w-[506px] max-h-[483px] mx-auto">
       {/* Login Form */}
-      <Card className="bg-white shadow-lg border-0 gap-8 p-8 rounded-4xl ">
+      <Card className="bg-transparent shadow-lg border-0 gap-8 p-8 rounded-4xl ">
         <div className="text-center">
           <h1 className="text-gray-950 text-2xl font-semibold mb-3">
             Welcome back to our CRM
@@ -103,6 +103,7 @@ export default function LoginPage() {
               placeholder="Enter your email"
               register={register}
               errors={errors}
+              required
             />
             <PasswordInput
               id="password"
@@ -110,6 +111,7 @@ export default function LoginPage() {
               placeholder="Enter your password"
               register={register}
               errors={errors}
+              required
             />
 
             {/* Sign In Button */}

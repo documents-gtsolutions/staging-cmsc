@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import {
   BarChart,
@@ -18,6 +17,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import useAuth from "@/app/hooks/useAuth";
 import FeatureCard from "./components/FeatureCard";
+import Footer from "@/components/layout/Footer";
 
 const Data = [
   {

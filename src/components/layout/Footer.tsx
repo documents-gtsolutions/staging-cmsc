@@ -34,7 +34,7 @@ const socialMedia = [
 ];
 const Footer = () => {
   return (
-    <div className="mt-auto py-4">
+    <div className="sm:mt-auto mt-8 py-4">
       <div className="max-w-[2520px] mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
         <div className="flex md:flex-row flex-col gap-x-4 items-center text-[#6E6F78] font-semibold">
           Copyright © 2023 CMSC AI System

@@ -11,8 +11,8 @@ export default function AuthLayout({
   return (
     <>
       <ToastContainer position="top-right" autoClose={3000} />
-      <div className="relative min-h-screen bg-[#FCFCFC] overflow-x-hidden">
-        <div className="absolute top-[76px] -left-6 w-[400px] h-[400px]">
+      <div className="relative min-h-screen bg-[#FCFCFC] overflow-x-hidden z-[1]">
+        <div className="absolute top-[76px] -left-6 w-[400px] h-[400px] z-[-1]">
           <Image
             src="/images/auth-layer.png"
             alt="login-bg"
@@ -20,7 +20,7 @@ export default function AuthLayout({
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-[76px] -right-6 w-[400px] h-[400px]">
+        <div className="absolute bottom-[76px] -right-6 w-[400px] h-[400px] z-[-1]">
           <Image
             src="/images/auth-layer.png"
             alt="login-bg"
