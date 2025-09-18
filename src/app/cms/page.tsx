@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Footer from "@/components/auth/Footer";
+import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import {
   BarChart,

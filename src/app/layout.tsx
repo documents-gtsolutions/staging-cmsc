@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Teacher Dashboard",
-  description: "Comprehensive teacher dashboard for educational management",
+  title: "CMSC - Child Management System",
+  description: "Child management system for educational management",
 };
 
 export default function RootLayout({

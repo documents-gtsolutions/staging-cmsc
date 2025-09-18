@@ -8,7 +8,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { LoadingSpinner } from "@/components/loading-spinner";
 import { SidebarProvider, useSidebarContext } from "@/context/SidebarContext";
-import Footer from "@/components/auth/Footer";
+import Footer from "@/components/layout/Footer";
 
 // Component that adjusts its width based on sidebar state
 const MainContent = ({ children }: { children: React.ReactNode }) => {
