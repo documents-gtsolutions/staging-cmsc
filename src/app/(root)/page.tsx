@@ -1,6 +1,7 @@
 "use client";
 
 import DropZone from "@/components/Inputs/Dropzone";
+import Link from "next/link";
 
 // import { useEffect } from "react";
 // import { useRouter } from "next/navigation";
@@ -28,6 +29,8 @@ export default function HomePage() {
   return (
     <div>
       Home Page
+      <br />
+      <Link href="/cms" className="text-blue-500">CMS Page</Link>
     </div>
   );
 }

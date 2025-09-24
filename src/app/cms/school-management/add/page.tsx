@@ -88,9 +88,9 @@ const SchoolManagementAdd = () => {
     <div className="p-6">
       <div className="mb-8">
         <Heading
-          title="Add Branch"
-          backTo="/cms/branch-management"
-          backToText="Back to Branch Management"
+          title="Add School"
+          backTo="/cms/school-management"
+          backToText="Back to School Management"
         />
       </div>
 
